@@ -1,0 +1,119 @@
+
+:root{
+    --color1: #EE4CE2;
+    --color2: #FF4C95;
+    --color3: #FECA4D;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    font-family: cursive;
+}
+
+body{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(./water-themed-backgrounds-129419-2259895-6220370.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+#simpleform{
+    display: flex;
+    flex-direction: column;
+    background: linear-gradient(270deg, var(--color1),var(--color2) 33%, var(--color3));
+    padding: 2rem;
+    align-items: center;
+    border-radius: 3rem;
+    font-size: 2rem;
+}
+
+#water{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin: 1rem;
+}
+
+#submit{
+    border-radius: 5rem;
+    width: 90%;
+    cursor: pointer;
+    height: 2.5rem;
+    text-align: center;
+    background-color: white;
+    box-shadow: 0px 5px 0px 0px rgba(0, 0, 0, 0.4);
+    -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+    -khtml-user-select: none; /* Konqueror HTML */
+    -moz-user-select: none; /* Old versions of Firefox */
+    -ms-user-select: none; /* Internet Explorer/Edge */
+    user-select: none; /* Non-prefixed version, currently supported by Chrome, Edge, Opera and Firefox */
+}
+
+#decrease{
+    border-top-left-radius: 5rem;
+    border-bottom-left-radius: 5rem;
+    padding: 4px;
+    background-color: white;
+    box-shadow: 0px 5px 0px 0px rgba(0, 0, 0, 0.4);
+    cursor: pointer;
+    -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+    -khtml-user-select: none; /* Konqueror HTML */
+    -moz-user-select: none; /* Old versions of Firefox */
+    -ms-user-select: none; /* Internet Explorer/Edge */
+    user-select: none; /* Non-prefixed version, currently supported by Chrome, Edge, Opera and Firefox */
+}
+
+#reset{
+    padding: 4px;
+    background-color: white;
+    box-shadow: 0px 5px 0px 0px rgba(0, 0, 0, 0.4);
+    cursor: pointer;
+    -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+    -khtml-user-select: none; /* Konqueror HTML */
+    -moz-user-select: none; /* Old versions of Firefox */
+    -ms-user-select: none; /* Internet Explorer/Edge */
+    user-select: none; /* Non-prefixed version, currently supported by Chrome, Edge, Opera and Firefox */
+}
+
+#increase{
+    border-top-right-radius: 5rem;
+    border-bottom-right-radius: 5rem;
+    padding: 4px;
+    background-color: white;
+    box-shadow: 0px 5px 0px 0px rgba(0, 0, 0, 0.4);
+    cursor: pointer;
+    -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+    -khtml-user-select: none; /* Konqueror HTML */
+    -moz-user-select: none; /* Old versions of Firefox */
+    -ms-user-select: none; /* Internet Explorer/Edge */
+    user-select: none; /* Non-prefixed version, currently supported by Chrome, Edge, Opera and Firefox */
+}
+
+#username{
+    height: 2rem;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    width: 110%;
+    border-radius: 12px;
+    text-align: center;
+    text-transform: capitalize;
+}
+
+#water #waterq b{
+    font-size: 4rem;
+}
+

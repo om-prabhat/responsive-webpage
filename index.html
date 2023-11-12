@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>First time using JS</title>
+</head>
+<link rel="stylesheet" href="style.css">
+<body>
+    <form id="simpleform">
+        <label for="uname">
+            <b>Enter your name:<br></b>
+            <input type="text" id="username" placeholder="Enter Username" name="uname" required>
+            <br>
+        </label>
+        <label for="water" id="water">
+            <b>How much water do you drink:<br>(in litres)<br></b>
+            <label for="waterq" id="waterq">
+                <b id="quantity">0</b><br>
+                <p id="warning"></p>
+                <data id="decrease">Decrease</data>
+                <data id="reset">Reset</data>
+                <data id="increase">Increase</data>
+                <br>
+            </label>
+        </label>
+        <data id="submit">Submit</data>
+        <h2 id="note"></h2>   
+    </form>    
+</body>
+<script src="script.js"></script>
+</html>
